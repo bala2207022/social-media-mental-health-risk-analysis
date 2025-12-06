@@ -35,6 +35,7 @@ def lexicon_label(text: str) -> tuple[str,float,str]:
         return ("Positive", min(1.0, 0.4 + 0.1*pos_hits), "lexicon")
     return ("Neutral", 0.0, "lexicon")
 
+
 pipe = None
 try:
     from transformers import pipeline

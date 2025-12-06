@@ -34,6 +34,7 @@ def connect():
     r.read_only = True
     return r
 
+
 def extract(reddit):
     posts, comments = [], []
     users = {}

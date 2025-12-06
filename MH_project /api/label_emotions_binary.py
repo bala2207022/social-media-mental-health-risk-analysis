@@ -23,6 +23,7 @@ POS = {
     "confident","proud","calm","peace","optimis","hopeful","relief","love","progress","improve","win"
 }
 
+
 def lex_label(text: str) -> str:
     if not isinstance(text, str) or not text.strip():
         return "Negative" 

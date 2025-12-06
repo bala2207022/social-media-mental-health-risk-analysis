@@ -12,3 +12,4 @@ print("Connected to Reddit successfully!\n")
 
 for post in reddit.subreddit("mentalhealth").hot(limit=5):
     print("-", post.title)
+
