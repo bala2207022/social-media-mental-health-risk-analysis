@@ -40,6 +40,7 @@ root_path = st.sidebar.text_input(
     str(Path(__file__).resolve().parents[1])
 )
 
+
 topn = st.sidebar.number_input("Top N users", 1, 50, 10)
 bucket = st.sidebar.radio("Bucket for table", ["High", "Moderate", "Low"])
 
