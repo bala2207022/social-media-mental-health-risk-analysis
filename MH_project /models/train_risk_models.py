@@ -133,6 +133,7 @@ def agg_user(df: pd.DataFrame, tag: str):
         else:
             neg_posts = 0
             neg_likes = 0.0
+            
             neg_eng   = 0.0
         rows.append({
             "user_id": uid,
